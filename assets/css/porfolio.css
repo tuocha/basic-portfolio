@@ -10,7 +10,7 @@
     height: 100px;
     position: relative;
     border-bottom: solid darkorchid;
-    }   
+}
 
 h1 {
     padding: 1.5% 0px 0px 0px;
@@ -46,20 +46,59 @@ section {
     background: white;
     height: 90%;
     width: 55%;
-    z-index: 2;
+    /* z-index: 2; */
     position: absolute;
     top: 5%;
     left: -5%;
 }
 
-header.topBody {
-    top: 0px;
-    left: 0px;
+h1.contactTitle {
+    color: #8c41e2;
     background: white;
-    height: 25%;
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    top: -4%;
+    left: -15%;
+    text-align: left;
+    border-bottom: 1px solid darkorchid;
 }
 
-form {
+.imageContainer {
     margin-top: 10%;
-    text-align: left;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.pic-all {
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;  
+    z-index: -1;
+}
+
+.text-all {
+    position: absolute;
+    bottom: 75%;
+    text-align: center;
+    z-index: 10;
+    background: #8c41e2;
+    width: 150px;
+    color: white;
+}
+
+.rps, .rutgers {
+    position: absolute;
+    bottom: 30%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 17px;  
+    background-color: #666666;
+    text-align: center;
 }

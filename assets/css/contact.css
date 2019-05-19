@@ -37,7 +37,6 @@ div.page {
     background-image: url(../images/light_honeycomb.png);
     margin-top: 0px;
     height: 500px;
-    width: 100%;
     position: relative;
     border-bottom: 10px darkorchid solid;
 }
@@ -60,26 +59,29 @@ header.topBody {
     height: 25%;
 }
 
-#me {
-    height: 150px;
-    width: 125px;
-    margin: 5px 15px 0px 20px;
-    float: left;
+form {
+    margin-top: 10%;
+    text-align: left;
 }
 
-h2 {
-    text-align: left;
-    margin: 2%;
+h1.contactTitle {
+    color: black;
     background: white;
-    height: 75%;
-    padding: 2%;
-    border-bottom: 1px darkorchid solid;
-    color: #8c41e2;
+    height: 10%;
+    width: 80%;
+    position: absolute;
+    top: -4%;
+    left: -15%;
+    text-align: left;
+    border-bottom: 1px solid darkorchid;
 }
 
-p.text {
-    text-align: left;
-    margin-left: 8px;
+input[type="text"], textarea {
+    width: 84%;
+}
+
+#messageSpace {
+    margin-left: 5%;
 }
 
 .footer {
