@@ -1,7 +1,7 @@
 * {
     text-align: center;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .header {
@@ -64,8 +64,8 @@ form {
     text-align: left;
 }
 
-h1.contactTitle {
-    color: black;
+.contactTitle {
+    color: #8c41e2;
     background: white;
     height: 10%;
     width: 80%;
@@ -74,6 +74,7 @@ h1.contactTitle {
     left: -15%;
     text-align: left;
     border-bottom: 1px solid darkorchid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 input[type="text"], textarea {
